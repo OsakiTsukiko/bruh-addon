@@ -1,0 +1,31 @@
+{
+  "schemaVersion": 1,
+  "id": "bruh",
+  "version": "${version}",
+  "name": "BRUH",
+  "description": "Meteor said NOPE!",
+  "authors": [
+    "OsakiTsukiko"
+  ],
+  "contact": {
+    "repo": "https://github.com/MeteorDevelopment/meteor-addon-template"
+  },
+  "icon": "assets/bruh/icon.png",
+  "environment": "client",
+  "entrypoints": {
+    "meteor": [
+      "osakitsukiko.bruh.Bruh"
+    ]
+  },
+  "mixins": [
+    "bruh.mixins.json"
+  ],
+  "custom": {
+    "meteor-client:color": "255,255,255"
+  },
+  "depends": {
+    "java": ">=17",
+    "minecraft": ">=${mc_version}",
+    "meteor-client": "*"
+  }
+}
